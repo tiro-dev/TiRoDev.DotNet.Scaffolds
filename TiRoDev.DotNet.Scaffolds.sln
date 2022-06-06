@@ -2,13 +2,20 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82A3E60A-480D-475E-811D-B5A2D7DDF631}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiRoDev.DotNet.Scaffolds.All", "src\TiRoDev.DotNet.Scaffolds.All\TiRoDev.DotNet.Scaffolds.All.csproj", "{78F6EA41-5433-4493-BE8E-3EC3086AEE27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{78F6EA41-5433-4493-BE8E-3EC3086AEE27} = {82A3E60A-480D-475E-811D-B5A2D7DDF631}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F6EA41-5433-4493-BE8E-3EC3086AEE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F6EA41-5433-4493-BE8E-3EC3086AEE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F6EA41-5433-4493-BE8E-3EC3086AEE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F6EA41-5433-4493-BE8E-3EC3086AEE27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
