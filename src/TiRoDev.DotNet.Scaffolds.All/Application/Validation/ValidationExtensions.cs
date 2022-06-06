@@ -1,5 +1,5 @@
-﻿using System.Net;
-using FluentValidation;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TiRoDev.DotNet.Scaffolds.All.Application.Validation;
@@ -12,7 +12,7 @@ public static class ValidationExtensions
         {
             Title = "One or more validation errors occurred.",
             Type = "https://tools.ietf.org/html/rfc7231#section-6.5.1",
-            Status = (int)HttpStatusCode.BadRequest
+            Status = StatusCodes.Status400BadRequest
         };
         
         foreach (var validationFailure in validationException.Errors)
